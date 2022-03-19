@@ -1,5 +1,9 @@
 # AngularTourOfHeroes
 
+The implementation was for me to get familar with Angular.
+I followed the [Tour of Heroes](https://angular.io/tutorial) tutorial.
+Code snippets found here will inevitably resamble or be absolutely equal to the ones found in the [Tour of Heroes](https://angular.io/tutorial) tutorial.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
 ## Development server
