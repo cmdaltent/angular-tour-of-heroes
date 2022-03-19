@@ -28,4 +28,11 @@ export class HeroesComponent implements OnInit {
         this.heroes.push(hero);
       });
   }
+
+  delete(hero: Hero): void {
+    this.heroes = this.heroes.filter(h => h !== hero);
+    // an observable does nothing unless it is subscribed by something
+    // as a consequence, the delete request will not be sent to the server if the subscribe operation is missing
+    this.heroService.deleteHero(hero.id).subscribe();
+  }
 }
